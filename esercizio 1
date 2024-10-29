@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>title</title>
+    <style>
+#miascatola1{background-color: gray; width: 100px; height: 100px;}
+#miascatola2{background-color: yellow; width: 100px; height: 100px;}
+#miascatola3{background-color: magenta; width: 100px; height: 100px;}
+#miascatola4{background-color: red; width: 100px; height: 100px;}
+#miascatola5{background-color: green; width: 100px; height: 100px;}
+    </style>
+</head>
+<body>
+   
+</body>
+
+<div id="miascatola1">
+   
+</div>
+<div id="miascatola2">
+   
+</div>
+<div id="miascatola3">
+   
+</div>
+<div id="miascatola4">
+   
+</div>
+<div id="miascatola5">
+
+</div>
+</html>
