@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aforismi di Scienziati</title>
+  <style>
+    .aforisma {
+      margin: 20px 0;
+      padding: 15px;
+      border: 1px solid #ccc;
+      background-color: #f9f9f9;
+    }
+    button {
+      margin-top: 10px;
+      padding: 10px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <h1>Aforismi di Scienziati</h1>
+
+  <div class="aforisma">
+    <p id="aforisma1">"La scienza è un mezzo per comprendere la natura, non per dominare il mondo." - Albert Einstein</p>
+    <button onclick="nascondiTesto('aforisma1')">Nascondi Aforisma</button>
+  </div>
+
+  <div class="aforisma">
+    <p id="aforisma2">"Fino a oggi la maggior parte degli scienziati è stata troppo occupata nello sviluppo di nuove teorie che descrivono che cosa sia l'universo per porsi la domanda perché?" - Stephen Hawking</p>
+    <button onclick="nascondiTesto('aforisma2')">Nascondi Aforisma</button>
+  </div>
+
+  <div class="aforisma">
+    <p id="aforisma3">"“Lo scienziato nel suo laboratorio non è solo un tecnico, è anche un bambino davanti a fenomeni della Natura che lo affascinano come un racconto di fate.”" - Marie Curie</p>
+    <button onclick="nascondiTesto('aforisma3')">Nascondi Aforisma</button>
+  </div>
+
+  <div class="aforisma">
+    <p id="aforisma4">"Gli scienziati sognano di fare grandi cose. Gli ingegneri le realizzano." - James Michener</p>
+    <button onclick="nascondiTesto('aforisma4')">Nascondi Aforisma</button>
+  </div>
+
+  <div class="aforisma">
+    <p id="aforisma5">"La scienza è l'arte di comprendere ciò che ci circonda." - Carl Sagan</p>
+    <button onclick="nascondiTesto('aforisma5')">Nascondi Aforisma</button>
+  </div>
+
+  <script>
+    function nascondiTesto(id) {
+      const testo = document.getElementById(id);
+      testo.style.display = "none"; 
+    }
+  </script>
+</body>
+</html>
