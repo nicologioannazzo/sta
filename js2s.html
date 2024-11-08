@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prima lezione javascript</title>
+
+    <style>
+        #miobottone1 {
+  border: none;
+  color: blue;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+ 
+#miobottone2 {
+  border: none;
+  color: yellow;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#miobottone3 {
+  border: none;
+  color: green;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+          <p>La mia prima pagina html con javascript
+             evidenzia il funzionamento degli eventi associati
+             al premere di un bottone.
+            Il comando "button" è un tag html "html"
+            Stilizzo il bottone come piace a me!
+          </p>
+          <input id="mioinput" type="text">
+          <button id="miobottone1" onclick="eseguiFinestra1()"> cliccami per a ricevere il seguente testo</button>
+          
+<script>
+    function eseguiFinestra1()
+    {
+        let str=document.getElementById("mioinput").value;
+        alert("ciao ho ricevuto come input il seguente testo: "+ str);
+    }
+
+</script>
+</body>
+</html>
