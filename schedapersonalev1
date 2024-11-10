@@ -6,7 +6,7 @@
     <h1>
         Scheda Personale
     </h1>
-	<img src="foto.jpeg" width="384" height="512" alt="Foto in classe"></img>
+	<img src="foto.jpg" width="384" height="512" alt="Foto in classe"></img>
 		<ul>
 			<li>Nome: <b>Nicolò Giannazzo</b></li>
 			<li>Età: <b>15 anni</b></li>
